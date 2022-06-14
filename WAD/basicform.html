@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMS</title>
+</head>
+<body >
+	
+	<form action="welcome.html" method="post" target="_blank">
+		<center>
+		<table border="0" width="500" height="500">
+		<tr>
+			<td colspan="2"><h3><b>STUDENT DETAILS</b></h3>
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<label for="name">Name: </label>
+			</td>
+			<td>
+				<input type="text" size = "30" name="username" autofocus placeholder="Enter your name" required />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Registrstion no. :</label>
+			</td>
+		    <td>
+		    	<input type="text" size = "30" name="regno" placeholder="Enter your reg no" required />
+		    </td>
+		</tr>
+		<tr>
+			<td>
+				<label>Password:</label>
+			</td>
+		    <td>
+		    	<input type="password" size = "30" name="password" placeholder="Enter your password" required />
+		    </td>
+		</tr>
+		<tr>
+			<td><label>Email:</label>
+			</td>
+			<td>
+				<input type="email" size = "30" name="email" placeholder="Enter your email" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Ph Number:</label>
+			</td>
+			<td>
+				<input type="number" name="ph number" placeholder="Enter your ph number" required />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Branch:</label>
+			</td>
+			<td>
+				<select name="branch">
+					<option value="CSE">AI&DS</option>
+					<option value="AI&DS">CSE</option>
+					<option value="EEE">EEE</option>
+					<option value="ECE">ECE</option>
+					<option value="CIV">CIV</option>
+					<option value="MECH">MECH</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Subjects:</label>
+			</td>
+			<td>
+				<select name="Subjects" multiple>
+					<option value="OS">OS</option>
+					<option value="DM">DM</option>
+					<option value="DBMS">DBMS</option>
+					<option value="ENG">ENG</option>
+					<option value="DSP">DSP</option>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Hobbies:</label>
+			</td>
+			<td>
+				<input type="checkbox" name="hobbies" checked />games
+		        <input type="checkbox" name="hobbies"  />drawing
+			    <input type="checkbox" name="hobbies"/>music
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Gender:</label>
+			</td>
+			<td>
+				<input type="radio" name="gender" />Male
+				<input type="radio" name="gender" />Female
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>File:</label>
+			</td>
+			<td>
+				<input type="file" >
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<input type="submit" value="Register">
+					<input type="reset" value="clear">
+				</center>
+			</td>
+		</tr>
+
+		</table>
+	</center>
+		
+	</form>
+</body>
+</html>

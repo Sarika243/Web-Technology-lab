@@ -1,0 +1,17 @@
+h3{
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-style: oblique;
+}
+#head{
+	background-color: rgb(181, 161, 212);
+}
+#lunch{
+	background-color: #00fa53;
+}
+#wad{
+	background-color: #6be4ab;
+}
+#wed{
+    background-color: crimson;
+}

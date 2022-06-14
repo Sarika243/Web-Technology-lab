@@ -1,0 +1,30 @@
+h3{
+	margin-top: 100px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+	border: 50px double rgb(248, 14, 209);
+	padding: 50px;
+}
+p{
+	font-size:18px;   
+    color:rgb(19, 223, 107);        
+    border: solid 6px rosybrown;
+    padding: 20px;
+    margin: 100px; 
+}
+h2{
+	border: dotted 10px black;
+	background-color:rgb(240, 243, 56);
+    padding: 10px;
+    margin: 100px; 
+}
+h4{
+	content: left;
+	background-color: rgb(192, 255, 92);
+
+}
+
+h6{
+	content: center;
+}
+
